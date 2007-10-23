@@ -1,0 +1,16 @@
+== Access Controlled System
+
+To complete installation:
+1. include AccessControlledSystem in ApplicationController
+2. add a line to environment.rb similar to the following:
+     AccessControlledSystem.person_model_name = :person
+3. script/generate access_controlled_system_migration PersonModelName
+
+Everything will be disallowed by default, so your tests will probably fail.
+
+=== License
+
+The Access Controlled System plugin is released under the MIT-License and is
+Copyright (c) 2007, Adam Williams. Special thanks to Austin Taylor (dotjerky)
+and Steve Iannopollo for their part in helping me get this plugin ready for
+the public.

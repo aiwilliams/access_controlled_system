@@ -1,0 +1,1 @@
+./script/generate access_controlled PERSON_MODEL_NAME
